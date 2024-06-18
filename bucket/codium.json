@@ -14,12 +14,9 @@
         }
     },
     "pre_install": [
-        "$sub_path = \"$dir\\Codium_1.89.1.24132_win64\"",
-        "echo \"$dir\"",
-        "echo \"$sub_path\"",
-        "echo \"$version\"",
-        "Move-Item -Path \"$sub_path\" -Destination \"$dir\"",
-        "Remove-Item -Path \"$dir\\Codium_1.89.1.24132_win64\" -Recurse",
+        "$real_dir = \"$dir\\Codium_$verison_win64\"",
+        "echo \"$real_dir\"",
+        "Move-Item -Path \"$real_dir\" -Destination \"$dir\"",
         "$product_path = \"$dir\\resources\\app\\product.json\"",
         "if (Test-Path -Path $product_path) {",
         "    $product = Get-Content -Path $product_path -Raw -Encoding UTF8 | ConvertFrom-Json",
