@@ -14,7 +14,7 @@
         }
     },
     "pre_install": [
-        "$real_dir = \"$dir\\Codium_$verison_win64\"",
+        "$real_dir = \"$dir\\Codium_$version_win64\"",
         "echo \"$real_dir\"",
         "Move-Item -Path \"$real_dir\" -Destination \"$dir\"",
         "$product_path = \"$dir\\resources\\app\\product.json\"",
