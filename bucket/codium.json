@@ -14,7 +14,8 @@
         }
     },
     "pre_install": [
-        "Copy-Item -Path \"$dir\\Codium_1.89.1.24132_win64\" -Destination \"$dir\" -Recurse",
+        "$sub_path = \"$dir\\Codium_1.89.1.24132_win64\"",
+        "Move-Item -Path \"$sub_path\" -Destination \"$dir\"",
         "Remove-Item -Path \"$dir\\Codium_1.89.1.24132_win64\" -Recurse",
         "$product_path = \"$dir\\resources\\app\\product.json\"",
         "if (Test-Path -Path $product_path) {",
