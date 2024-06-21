@@ -10,7 +10,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/Alex313031/codium/releases/download/1.89.1.24132/Codium_1.89.1.24132_win64.zip",
-            "hash": "86bd395f96edf43e5ced689754b568611a8e7288d9159edf2013e056197d7e6e"
+            "hash": "7751c6088ec2d7c5babd9d698638310a966268510d37be0dd9f2e23c185acd73"
         }
     },
     "pre_install": [
