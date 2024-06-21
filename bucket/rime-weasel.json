@@ -102,6 +102,6 @@
         "regex": "/releases/tag/([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://dl.bintray.com/rime/weasel/weasel-$version.0-installer.exe#/dl.7z"
+        "url": "https://github.com/rime/weasel/releases/download/0.16.1/weasel-$version.0-installer.exe#/dl.7z"
     }
 }
